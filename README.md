@@ -1,4 +1,4 @@
-# Reproducible Evaluation and Visualization
+# Code and reproducibility resources for deep learning-based pancreatic lesion risk prediction
 
 This repository contains evaluation scripts, precomputed test-set predictions, Bootstrap results, plotting scripts, and selected pretrained model artifacts for longitudinal risk prediction experiments.
 
@@ -303,9 +303,7 @@ The `plot/figure/` directory contains these final PDF artifacts:
 ```text
 plot/figure/
 ├── fig2.pdf
-├── fig21.pdf
 ├── fig3.pdf
-└── fig31.pdf
 ```
 
 These are the final figure filenames currently organized in the repository. Confirm which files each composite script writes by inspecting its save/export calls; naming alone does not establish whether `fig21.pdf` or `fig31.pdf` is an alternate export or a separate figure.
